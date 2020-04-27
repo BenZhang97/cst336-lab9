@@ -10,9 +10,9 @@ app.set('view engine', 'ejs');
 /* Configure MySQL DBMS */
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: 'benzhang97',
     password: '',
-    database: 'quotes_db'
+    database: 'new_databse_name'
 });
 connection.connect();
 
